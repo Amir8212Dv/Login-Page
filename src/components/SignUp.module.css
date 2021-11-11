@@ -1,0 +1,117 @@
+.container {
+    margin: auto;
+    width: 25rem;
+    border: 0.1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    background-color: rgb(249, 249, 249);
+}
+#login {
+    margin-top: 10%;
+    height: 25rem;
+}
+#signup {
+    margin-top: 3%;
+    height: 38rem;
+}
+input {
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 30px;
+    border: 0.1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    padding: 3px;
+    
+}
+
+input.green {
+    border-color: green;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+
+.div_input {
+    height: 75px;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+label {
+    padding-left: 43px;
+    font-size: smaller;
+    user-select: none;
+}
+
+h1 {
+    color: royalblue;
+    margin: 45px;
+    user-select: none;
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn a {
+    user-select: none;
+    text-decoration: none;
+    color: royalblue;
+    font-size: larger;
+}
+
+.btn a:hover {
+    color: rgba(64, 103, 250 , 0.8);
+}
+
+.btn button {
+    user-select: none;
+    border: none;
+    background-color: royalblue;
+    font-size: large;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+
+}
+
+.btn button:hover {
+    background-color: rgba(64, 103, 250 , 0.85);
+    box-shadow: 3px 3px 10px grey;
+    transition: none;
+}
+
+.btn button:disabled {
+    background-color: rgba(64, 103, 250 , 0.4);
+    box-shadow: none;
+    cursor: context-menu;
+}
+
+.error {
+    user-select: none;
+    margin-top: 3px;
+    background-color: rgb(255, 161, 161);
+    width: fit-content;
+    color: rgb(149, 49, 49);
+    font-size: 12px;
+    margin-left: 43px;
+    border-radius: 3px;
+    padding: 1px 4px;
+
+}
