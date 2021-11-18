@@ -13,7 +13,7 @@ import notify from './Toast';
 
 
 const SignUp = () => {
-
+    document.body.title = 'SignUp'
     const [data , setData] = useState({
         name : '',
         email : '' ,
