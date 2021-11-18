@@ -10,7 +10,7 @@ import notify from './Toast';
 
 
 const Login = () => {
-
+    document.title = 'Login'
     const [data , setData] = useState({
         name : '',
         password : '',
